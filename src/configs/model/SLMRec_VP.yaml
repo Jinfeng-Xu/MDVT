@@ -1,0 +1,16 @@
+recdim: 64
+layer_num: 3
+reg: [0.001, 0.01]
+ssl_task: 'FAC'
+learning_rate: [0.001, 0.01]
+weight_decay: 1e-4
+ssl_alpha: [0.01, 0.1, 1.0]
+ssl_temp: [0.2]
+dropout_rate: 0.3
+mm_fusion_mode: 'concat'
+temp: 0.2
+init: 'xavier'
+adj_type: 'pre'
+k: [1, 2]
+s_weight: [1, 0.1, 0.01, 0.001]
+hyper_parameters: ["learning_rate", "ssl_temp", "ssl_alpha", "reg", 'k', 's_weight']
