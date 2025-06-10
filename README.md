@@ -27,10 +27,15 @@ We utilize three distinct public multimodal recommendation datasets: Baby, Sport
 
 ## Citing MDVT
 
-If you find MDVT useful in your research, please consider citing our [paper]().
+If you find MDVT useful in your research, please consider citing our [paper](https://arxiv.org/pdf/2505.16665).
 
 ```
-
+@article{xu2025mdvt,
+  title={MDVT: Enhancing Multimodal Recommendation with Model-Agnostic Multimodal-Driven Virtual Triplets},
+  author={Xu, Jinfeng and Chen, Zheyu and Li, Jinze and Yang, Shuo and Wang, Hewei and Li, Yijie and Li, Mengran and Wu, Puzhen and Ngai, Edith CH},
+  journal={arXiv preprint arXiv:2505.16665},
+  year={2025}
+}
 ```
 
 
